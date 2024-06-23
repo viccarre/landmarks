@@ -11,6 +11,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Hello SwiftUI")
+                .font(.title)
+                .foregroundColor(.green)
         }
         .padding()
     }
